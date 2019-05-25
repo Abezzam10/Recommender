@@ -25,7 +25,6 @@ encoding='latin-1')
 print(users.shape)
 users.head()
 
-print(items.shape)
 items.head()
 
 r_cols = ['user_id', 'movie_id', 'rating', 'unix_timestamp']
